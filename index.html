@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Music Playlist</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="top-bar">
+            <!-- Expand more icon -->
+            <i id="fav" class="material-icons">favorite_border</i>
+            <span>Now Playing</span>
+            <!-- horizantal ellipsis -->
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+
+        <div class="img-area">
+            <img src="" alt="" srcset="">
+        </div>
+
+        <div class="song-details">
+            <p class="title">Beauz & Jvna - Crazy</p>
+            <p class="artist">Beauz & Jvna</p>
+        </div>
+
+        <div class="progress-area">
+            <div class="progress-bar">
+                <!-- <span></span> -->
+            </div>
+            <div class="timer">
+                <span class="current">0:00</span>
+                <span class="duration"></span>
+            </div>
+            <audio src="" id="main-audio"></audio>
+        </div>
+        <div class="volume-control">
+                <i id="volume-icon" class="material-icons">volume_down</i>
+                <input type="range" class="volume-slider" min="0" max="1" step="0.01" value="0.7"/>
+                <i id="volume-icon" class="material-icons">volume_up</i>
+        </div>
+        <div class="controls">
+            <i id="repeat-plist" class="material-icons" title="Playlist looped" >repeat</i>
+            <i id="prev" class="material-icons">skip_previous</i>
+            <div class="play-pause">
+                <i class="material-icons">play_arrow</i>
+            </div>
+            <i id="next" class="material-icons">skip_next</i>
+            <!-- <i class="fa-solid fa-music"></i> -->
+            <i id="more-music" class="material-icons">queue_music</i>
+        </div>
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class="material-icons">queue_music</i>
+                    <span>Music List</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+            </div>
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/music-list.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
