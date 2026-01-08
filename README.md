@@ -40,26 +40,6 @@ To build a functional and user-friendly music player that showcases real-world u
 
 ---
 
-## 📂 Project Structure
-
-TASK2-MUSIC-PLAYLIST/
-│
-├── images/
-│ └── music cover images
-│
-├── js/
-│ ├── music-list.js
-│ └── script.js
-│
-├── songs/
-│ └── audio files (.mp3)
-│
-├── index.html
-└── style.css
-
-
----
-
 ## ▶️ Usage
 
 Open `index.html` in any modern web browser to run the application.
@@ -69,6 +49,14 @@ Open `index.html` in any modern web browser to run the application.
 ## 📈 Outcome
 
 Gained hands-on experience building an interactive frontend application using JavaScript audio APIs and UI/UX best practices.
+
+---
+
+## 🧩 Key Learnings
+
+- Working with the JavaScript Audio API
+- Managing application state for media controls
+- Improving UI responsiveness and user experience
 
 ---
 
