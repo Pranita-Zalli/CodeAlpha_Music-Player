@@ -20,10 +20,7 @@ This project is a responsive and interactive music player designed to provide a 
 ## 📸 Screenshots
 
 ### Music Player Interface
-![Music Player UI](screenshots/player-ui.png)
-
-### Playlist View
-![Playlist View](screenshots/playlist-view.png)
+![Music Player UI](images/Cover.jpg)
 
 ---
 
